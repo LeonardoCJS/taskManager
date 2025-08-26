@@ -178,7 +178,7 @@ public class Main {
                 }
             }
 
-            System.out.println("Digite o novo status (PENDENTE, CONCLUIDA, EM_ANDAMENTO) ou Enter para manter:");
+            System.out.println("Digite o novo status (PENDENTE, INICIADO, COMPLETO, CANCELADO) ou Enter para manter:");
             String novoStatusStr = scanner.nextLine();
             if (!novoStatusStr.isBlank()) {
                 try {
